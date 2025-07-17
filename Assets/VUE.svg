@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237.1 280.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4dba87;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #435466;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-3" points="170.92 33.07 159.68 18.26 18.1 18.26 18.1 79.31 26.71 89 26.71 193.84 18.1 203.52 18.1 252.14 29.82 264.24 207.21 264.24 219 249.73 219 123.55 170.92 75.47 170.92 33.07"/>
+  <g id="Icons1">
+    <g id="vue">
+      <path class="cls-2" d="M79.49,104.09h21.48l13.34,22.64,13.48-22.64h21.29l-34.76,61.13-34.82-61.13h0Z"/>
+      <path class="cls-1" d="M56.58,104.09l57.74,100.87,58.16-100.87h-23.39l-34.76,61.13-34.82-61.13h-22.91,0Z"/>
+    </g>
+  </g>
+</svg>

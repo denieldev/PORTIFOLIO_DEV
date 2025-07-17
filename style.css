@@ -75,11 +75,64 @@ li a {
 
 li a:hover {
   text-decoration: underline;
-  color: black;
+  color: rgb(26, 26, 26);
 }
 
 section {
   text-align: center;
+}
+
+.AMContainer {
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.InfoBox {
+ display: block;
+ height: 300px;
+ width: 800px;
+ max-width: 800px;
+ position: absolute;
+ z-index: 1;
+ overflow: hidden;
+}
+.textAM {
+  position: relative;
+  z-index: 2;
+}
+.DescriptionAM{
+ width: 550px;
+}
+
+.led {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  font-weight: 800;
+  top: -35;
+  color: rgb(255, 236, 236);
+  animation: scroll-left 15s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.LedBox {
+  top: 49;
+  height: 103px;
+  position: absolute;
+  z-index: 2;
 }
 
 #ProjetctsContainer {
@@ -104,10 +157,22 @@ section {
 }
 
 .Tecnos {
-  background: rgb(95, 79, 50);
+  /* background: rgb(95, 79, 50); */
   text-align: center;
   height: 200px;
   grid-column: span 2;
+}
+
+.techContainer {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+}
+
+.imgTC {
+  max-height: 50px;
+  height: 50px;
 }
 
 footer {
