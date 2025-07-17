@@ -1,0 +1,153 @@
+body {
+  font-family: "Funnel Display", sans-serif;
+  background-color: rgb(26, 26, 26);
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* background-color: blue; */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.HeaderContent {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  position: relative; /* Para controle local de z-index */
+}
+
+#MenuBTN {
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#MenuBTN:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  justify-content: right;
+}
+
+.BarOptions {
+  position: absolute;
+  top: -40;
+  left: 30;
+  height: 120px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.iconLogo {
+  height: 40px;
+  position: relative;
+  z-index: 2; /* Colocado acima da BarOptions */
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 2; /* Também acima da BarOptions */
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+section {
+  text-align: center;
+}
+
+#ProjetctsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin: 20px;
+  text-align: center;
+}
+.Description {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  background: royalblue;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgPjt {
+  background: rgb(253, 228, 116);
+  height: 300px;
+}
+
+.Tecnos {
+  background: rgb(95, 79, 50);
+  text-align: center;
+  height: 200px;
+  grid-column: span 2;
+}
+
+footer {
+
+  width: 100%;
+  height: 18%;
+}
+
+.TopBTN {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.TopBTN img{
+  height: 40px;
+  margin: 10px;
+}
+.TopBTN img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  justify-content: right;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.logo {
+  height: 50px;
+}
+
+#ContactBTN img{
+  height: 40px;
+}
+
+#ContactBTN img:hover {
+  transform: scale(1.1);
+}
+
